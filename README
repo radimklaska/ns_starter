@@ -13,5 +13,5 @@ Custom grid:
 6) Find all "pull_" and replace them with "pull-" to follow Drupal's NineSixty naming conventions.
 7) Find all "prefix_" and replace them with "prefix-" to follow Drupal's NineSixty naming conventions.
 8) Find all "suffix_" and replace them with "suffix-" to follow Drupal's NineSixty naming conventions.
-9) Find "container-16" in page.ptl.php and replace with "container-[your number of columns]".
+9) Find "container-16" in page.tpl.php and replace with "container-[your number of columns]".
 10) Uncomment this ";stylesheets[all][] = styles/framework/960.css" line in ns_starter.info.
