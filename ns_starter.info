@@ -13,7 +13,7 @@ base theme = ninesixty
 ;stylesheets[all][] = styles/framework/debug.css
 
 ; Theme specific styles. Any sub-themes should override this.
-stylesheets[all][] = styles.css
+stylesheets[all][] = styles/styles.css
 
 ; Add your scripts here.
 ;scripts[] = slider/slide.js
