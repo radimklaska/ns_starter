@@ -6,7 +6,7 @@ http://drupal.org/project/ninesixty
 
 Custom grid:
 1) Visit the Grid System Generator at http://www.gridsystemgenerator.com/gs01.php and create a grid system with your desired page width.
-2) Download the zip and extract the created "uncompressed/x_x_x.css" file to "ns_starter/styles/framework/960.css"
+2) Download the zip and extract the created "uncompressed/x_x_x.css" file to "ns_starter/styles/framework/960.css" Please note that 1000_50_5_5 grid is already here as an example. You need to override ns_starter/styles/framework/960.css file.
 3) Find all "container_" and replace them with "container-" to follow Drupal's NineSixty naming conventions.
 4) Find all "grid_" and replace them with "grid-" to follow Drupal's NineSixty naming conventions.
 5) Find all "push_" and replace them with "push-" to follow Drupal's NineSixty naming conventions.
