@@ -1,4 +1,17 @@
 Starter kit for a Drupal subtheme based on ninesixty.
 
-NineSixty:
+NineSixty basetheme is required:
 http://drupal.org/project/ninesixty
+
+
+Custom grid:
+1) Visit the Grid System Generator at http://www.gridsystemgenerator.com/gs01.php and create a grid system with your desired page width.
+2) Download the zip and extract the created "uncompressed/x_x_x.css" file to "ns_starter/styles/framework/960.css"
+3) Find all "container_" and replace them with "container-" to follow Drupal's NineSixty naming conventions.
+4) Find all "grid_" and replace them with "grid-" to follow Drupal's NineSixty naming conventions.
+5) Find all "push_" and replace them with "push-" to follow Drupal's NineSixty naming conventions.
+6) Find all "pull_" and replace them with "pull-" to follow Drupal's NineSixty naming conventions.
+7) Find all "prefix_" and replace them with "prefix-" to follow Drupal's NineSixty naming conventions.
+8) Find all "suffix_" and replace them with "suffix-" to follow Drupal's NineSixty naming conventions.
+9) Find "container-16" in page.ptl.php and replace with "container-[your number of columns]".
+10) Uncomment this ";stylesheets[all][] = styles/framework/960.css" line in ns_starter.info.

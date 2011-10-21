@@ -9,6 +9,7 @@ base theme = ninesixty
 ; Stylesheets. Anything within the "framework" folder will be placed before all others.
 ;stylesheets[all][] = styles/framework/reset.css
 ;stylesheets[all][] = styles/framework/text.css
+;Uncomment following line if you want custom grid. (And see README!)
 ;stylesheets[all][] = styles/framework/960.css
 ;stylesheets[all][] = styles/framework/debug.css
 
