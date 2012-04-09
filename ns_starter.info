@@ -1,14 +1,15 @@
 name = ns_starter
 description = Starter kit for a subtheme based on ninesixty.
-screenshot = screenshot.png
+screenshot = images/screenshot.png
 version = 1.0
-core = 6.x
+core = 7.x
 engine = phptemplate
 base theme = ninesixty
 
 ; Stylesheets. Anything within the "framework" folder will be placed before all others.
 ;stylesheets[all][] = styles/framework/reset.css
 ;stylesheets[all][] = styles/framework/text.css
+
 ;Uncomment following line if you want custom grid. (And see README!)
 ;stylesheets[all][] = styles/framework/960.css
 ;stylesheets[all][] = styles/framework/debug.css
@@ -20,4 +21,13 @@ stylesheets[all][] = styles/styles.css
 ;scripts[] = slider/slide.js
 
 ; Regions.
-;regions[name] = Name
+regions[page_top]       = Page top
+regions[header]         = Header
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlight
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer]         = Footer
+regions[page_bottom]    = Page bottom
